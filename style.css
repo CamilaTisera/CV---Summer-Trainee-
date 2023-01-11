@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    width: 1200px;
+    height: 1500px;
+    border: 1px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 60px;
+    background-color: lightpink;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 60px;
+    background-color: lightcoral;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Raleway", sans-serif;
+}
