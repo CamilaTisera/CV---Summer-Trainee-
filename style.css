@@ -2,7 +2,7 @@
     display: flex;
     margin: 0px 0px 0px 220px;
     width: 1000px;
-    height: 1400px;
+    height: 1500px;
     border: 1px solid black;
 }
 
@@ -20,10 +20,10 @@
     margin: 20px 20px 20px 0px;
     width: 40%;
     padding: 60px;
-    
+
 }
 
-strong{
+strong {
     font-weight: 700;
     font-style: normal;
     color: rgb(82, 62, 39);
@@ -34,7 +34,8 @@ h1 {
     font-style: normal;
 }
 
-h2,h3 {
+h2,
+h3 {
     font-family: "Raleway", sans-serif;
 }
 
@@ -45,9 +46,24 @@ img {
     width: 60%;
     padding: 60px;
 }
+
 .encabezado {
     background-color: rgb(232, 207, 193);
     margin: 80px 0px 40px 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+.estudio,
+.laboral {
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 20px;
+}
+
+.curso,
+.idioma {
+    background-color: burlywood;
     width: 100%;
     padding: 20px;
 }
