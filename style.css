@@ -1,8 +1,9 @@
 .container {
     display: flex;
-    width: 1200px;
-    height: 1500px;
-    border: 1px;
+    margin: 0px 0px 0px 220px;
+    width: 1000px;
+    height: 1400px;
+    border: 1px solid black;
 }
 
 .left-container {
@@ -10,19 +11,43 @@
     flex-direction: column;
     width: 40%;
     padding: 60px;
-    background-color: lightpink;
+    background-color: rgb(242, 189, 153);
 }
 
 .right-container {
     display: flex;
     flex-direction: column;
+    margin: 20px 20px 20px 0px;
     width: 40%;
     padding: 60px;
-    background-color: lightcoral;
+    
 }
 
-h1,
-h2,
-h3 {
+strong{
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(82, 62, 39);
+}
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,h3 {
     font-family: "Raleway", sans-serif;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%;
+    padding: 60px;
+}
+.encabezado {
+    background-color: rgb(232, 207, 193);
+    margin: 80px 0px 40px 0px;
+    width: 100%;
+    padding: 20px;
 }
