@@ -1,8 +1,9 @@
 .container {
     display: flex;
+    font: 100% sans-serif;
     margin: 0px 0px 0px 220px;
     width: 1000px;
-    height: 1500px;
+    height: 1700px;
     border: 1px solid black;
 }
 
@@ -19,7 +20,7 @@
     flex-direction: column;
     margin: 20px 20px 20px 0px;
     width: 40%;
-    padding: 60px;
+    padding: 60px 0px 0px 20px;
 
 }
 
@@ -30,13 +31,7 @@ strong {
 }
 
 h1 {
-    font-weight: 400;
-    font-style: normal;
-}
-
-h2,
-h3 {
-    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
 }
 
 img {
@@ -55,15 +50,20 @@ img {
 }
 
 .estudio,
-.laboral {
-    background-color: blanchedalmond;
+.laboral, .curso,
+.idioma {
     width: 100%;
     padding: 20px;
 }
 
-.curso,
-.idioma {
-    background-color: burlywood;
-    width: 100%;
-    padding: 20px;
+.contacto {
+    padding: 300px 0px 0px 0px;
+}
+
+.lenguajes {
+    padding: 200px 0px 0px 0px;
+}
+
+.sobreMi {
+    line-height: 20px;
 }
